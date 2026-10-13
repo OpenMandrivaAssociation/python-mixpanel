@@ -1,6 +1,6 @@
 Name:		python-mixpanel
 Version:	4.10.1
-Release:	1
+Release:	2
 Summary:	Official Mixpanel Python library
 License:	Apache-2.0
 Group:		Development/Python
@@ -11,7 +11,7 @@ BuildArch:	noarch
 %global __requires_exclude ^python[0-9.]*dist\\(
 BuildSystem:	python
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 Requires:	python%{pyver}dist(requests)
